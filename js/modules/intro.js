@@ -15,10 +15,10 @@ var IntroModule = {
 	{
 		var dialog = new LiteGUI.Dialog("intro_dialog",{ width: 400, height: 400, closable: true });
 		dialog.content.innerHTML = ""+
-			"<p class='center'><img height='150' target='_blank' src='http://webglstudio.org/images/logo.png'/></p>" + 
-			"<p class='header center'>Welcome to WEBGLStudio!</p>" +
+			"<p class='center'><img height='150' target='_blank' src='https://raw.githubusercontent.com/zeankundev/Artificium/main/imgs/webglstudio-icon.png'/></p>" + 
+			"<p class='header center'>Welcome to Artificium!</p>" +
 			"<p class='msg center'>This is an Open Source work-in-progress tool to bring the 3D to the web.</p>" +
-			"<p class='msg center'>If you have any question/suggestion or problem using this tool, go to the <a target='_blank' href='http://webglstudio.org'>webglstudio.org</a> site or the <a href='https://github.com/jagenjo/webglstudio.js'>github page</a>.</p>";
+			"<p class='msg center'>Artificium is a fork of <a href='https://github.com/jagenjo/webglstudio.js'>WebGLStudio</a></p>";
 
 		dialog.on_close = function()
 		{
